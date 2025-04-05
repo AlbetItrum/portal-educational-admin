@@ -1,0 +1,29 @@
+.login-body {
+    width: 440px;
+    max-width: 95%;
+    padding-top: 50px;
+    margin: 0 auto;
+    color: white;
+}
+.login-form h1 {
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    zoom: 1.5;
+}
+.login-form {
+    padding: 20px;
+    background: rgba(226, 223, 255, 0.85);
+    color: #74767d;
+}
+
+#checkboxPrivate {
+    width: auto;
+    padding: 10px;
+    zoom: 1.1;
+    margin-right: 5px;
+    vertical-align: top;
+    height: 15px;
+    margin-top: 0px;
+    accent-color: #7a6fbe;
+}

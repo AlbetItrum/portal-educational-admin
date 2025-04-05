@@ -1,0 +1,195 @@
+:root {
+  --text-color: #1b1c26;
+}
+.qlist {
+  padding-right: 15px;
+}
+.recognized-text {
+  opacity: .7;
+  font-size: 10px;
+}
+.coursePreview .courseTitle {
+  font-size: 24px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+.coursePreview small {
+  padding: 3px 0;
+  display: inline-block;
+  font-size: 16px;
+}
+.fbList {
+  max-height: 400px;
+  margin-right: -20px;
+  overflow-y: auto;
+}
+.ellipse {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+.w100 {
+  width: 100%;
+}
+.coursePreview {
+  border-radius: 12px;
+  background: white;
+  padding: 30px;
+  box-shadow: 0px 2px 8px 0px rgba(77, 80, 99, 0.15);
+
+  margin-top: 30px !important;
+  display: inline-block;
+  width: calc(50% - 30px);
+  text-decoration: none !important;
+  transition: all 0.4s ease;
+  margin-right: 15px !important;
+  margin-left: 15px !important;
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--text-color);
+}
+.coursesItems {
+  line-height: 1;
+}
+.card3 {
+  min-height: 400px;
+}
+.pr {
+  float: right;
+}
+.statTotalPerc {
+  font-weight: bold;
+  font-size: 30px;
+}
+.card2 {
+  min-height: 100px;
+  border-radius: 12px;
+  background: white;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 8px 0px rgba(77, 80, 99, 0.15);
+
+}
+.hover:hover {
+  background: rgba(211, 211, 211, 0.29);
+}
+[data-courses="1"] .coursePreview {
+  width: calc(100% - 30px);
+}
+.coursePreview:hover {
+  box-shadow: 3px 3px 3px 3px rgba(211, 211, 211, 0.515);
+}
+.rel {
+  position: relative;
+}
+.auto-interview-quiz {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  margin-left: 4px;
+}
+.w100 {
+  width: 100%;
+  display: block;
+}
+[data-url="/courses"].mainCont,
+[data-url="/main"].mainCont {
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.coursePreviewTitle {
+  width: calc(100% - 30px);
+  margin-top: 0px !important;
+}
+
+.coursesProgress small {
+  font-size: 7px;
+  display: block;
+  margin-bottom: -5px;
+  opacity: .8;
+  color: rgb(106, 95, 172);
+}
+.coursesProgress > div {
+  position: relative;
+  display: inline-block;
+}
+
+.fbList.fbList2 .ellipse:hover {
+  background: none!important;
+}
+.fbList .ellipse:hover {
+  background: rgba(211, 211, 211, 0.3);
+}
+.fbList .ellipse {
+  padding: 4px 0;
+  position: relative;
+}
+
+.ellipse:hover .icons {
+  opacity: 1;
+}
+.fbList .icons {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  transition: all .4s ease;
+  height: 30px;
+}
+.courseLoading {
+  opacity: .4;
+}
+.courseWrap {
+  transition: all .4s ease;
+}
+.mlcircle {
+  margin-left: 7px;
+}
+.trIcons > * {
+  padding: 3px;
+  padding-top: 0;
+}
+.ProgressCircle svg circle {
+  color: rgb(122, 114, 188);
+}
+.ProgressCircle > .MuiCircularProgress-root::before {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 5px solid rgba(128, 128, 128, 0.35);
+  border-radius: 50%;
+  box-sizing: border-box;
+  z-index: -1;
+}
+.ProgressCircle small {
+  margin-bottom: 3px;
+  font-size: 10px;
+}
+.ProgressCircle {
+  text-align: center;
+  position: relative;
+
+}
+.hashTitle small {
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: block;
+}
+.hashTitle {
+  /*border: 1px solid grey;*/
+  margin: 0;
+  padding: 0;
+}

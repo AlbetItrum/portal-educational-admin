@@ -1,0 +1,22 @@
+.img_preview:hover {
+    border: 1px dashed green;
+    color: darkgreen;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.img_preview {
+    border: 1px dashed grey;
+    padding: 3px;
+    text-align: center;
+}
+
+.drop_text {
+    padding: 15px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.afade.small {
+    max-width: 220px;
+    position: relative;
+}

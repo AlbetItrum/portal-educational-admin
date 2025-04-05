@@ -1,0 +1,15 @@
+/*.wmde-markdown-var.w-md-editor.w-md-editor-show-live{*/
+/*    height: 90vh!important;*/
+/*}*/
+
+.wmde-markdown hr {
+    height: 0;
+}
+.w-md-editor [type="checkbox"] {
+    width: 15px;
+}
+
+.w-md-editor-toolbar button {
+    padding: 10px!important;
+    height: 30px!important;
+}
